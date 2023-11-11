@@ -1,0 +1,434 @@
+/* Estilos para dispositivos com largura de tela de 901 pixels ou mais (por exemplo, desktops) */
+@media screen and (min-width: 768px) {
+
+
+    body {
+        font-size: 18px;
+        background: #FCFCFC;
+    }
+
+    body header .hamburger {
+        display: none;
+    }
+
+    .headerDesktop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        background-color: #0074d9e7;
+        flex-shrink: 0;
+        padding: 0 50px;
+        z-index: 1000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    }
+
+    .headerDesktop .Logo {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .menu a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 1.5rem;
+    }
+
+    .container {
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: url(./src/fundo.png);
+        background-color: #FCFCFC;
+        background-size: cover;
+
+    }
+
+    .logoCaneca {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .logoCaneca .LogoPrincipal {
+        width: 50%;
+    }
+
+    .logoCaneca .canecaPrincipal {
+        width: 40%;
+        margin-top: 50px;
+        transform: rotate(15deg);
+    }
+
+    .frasesPrincipal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .frasesPrincipal h2 {
+        font-size: 3rem;
+        color: #000000;
+        text-align: center;
+    }
+
+    .frasesPrincipal h1 {
+        font-size: 4rem;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .QuemSomos{
+        margin-top: 400px;
+        width: 100%;
+        height: 100vh;
+        background-color: #FCFCFC;
+    }
+       
+
+    .QuemSomos h1{
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+        left: 0;
+    }
+
+    .QuemSomos .container_Imgtexto{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+   
+
+    }
+
+    .QuemSomos .container_Imgtexto .ImgTexto{
+        width: 600px;
+    }
+
+    .QuemSomos .container_Imgtexto .textoQuemSomos{
+        width: 800px;
+        height: auto;
+        font-size: 2rem;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+     .QuemSomos .CEO{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .QuemSomos .CEO .fraseCEO{
+        width: 80%;
+        font-size: 1.5rem;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .QuemSomos .CEO .CEONomeFoto{
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .QuemSomos .CEO .CEONomeFoto .CEOimg{
+        width: 100%;
+    }
+
+    .QuemSomos .CEO .CEONomeFoto h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .QuemSomos .CEO .CEONomeFoto p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .Servicos{
+        margin-top: 400px;
+        width: 100%;
+        height: 100vh;
+        background-color: #FCFCFC;
+    }
+
+    .Servicos h1{
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+        left: 0;
+    }
+
+    .carousel{
+        width: 100%;
+        height:800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .carousel .card{
+        width: 450px;
+        height: 550px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .carousel.card:hover{
+    
+        background-color: #b88d00;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    } 
+
+
+    .carousel .card img{
+        width: 70%;
+
+
+    }
+
+    .carousel .card p{
+        font-size: 1.5rem;
+
+
+    }
+
+    .carouselgif{
+        margin-top: auto;
+        width: 100%;
+        height: 900px;
+        background-color: #FFC400;
+    }
+
+    .carouselgif .gif{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+    .Contato{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100vh;
+        background-color: #FCFCFC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Contato .ContatoTitulo{
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+        left: 0;
+    }
+
+    .Contato .ContatoTextoP2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .Formulario{
+        width: 80%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Formulario input{
+        width: 100%;
+        height: 80px;
+        outline: none;
+        margin-bottom: 20px;
+        border: 1.5px solid #0074d9e7;
+        font-size: 1.5rem;
+        padding: 20px;
+        
+    }
+
+    .Formulario textarea{
+        width: 100%;
+        height: 200px;
+        outline: none;
+        margin-bottom: 20px;
+        border: 1.5px solid #0074d9e7;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .Contato .inputEnviar{
+        width: 300px;
+        height: 80px;
+        outline: none;
+        margin-bottom: 20px;
+        border: 1.5px solid #0074d9e7;
+        font-size: 1.5rem;
+        padding: 20px;
+        cursor: pointer;
+        background-color: #0074d9e7;
+        color: #fff;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+    
+   .Contato.inputEnviar:hover{
+        background-color: #fff;
+        color: #0074d9e7;
+        border: 1.5px solid #0074d9e7;
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #0074d9e7 !important;
+
+    }
+    .footer3{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .LogoFooter{
+        width: 300px;
+    }
+
+    footer .barrinha{
+        width: 3px;
+        height: 250px;
+        background-color: #fff;
+    }
+    footer .contF{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+    }
+
+    footer.contF a{
+        font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer .RedesSociais{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+    }
+
+    footer a svg{
+        width: 50px;
+        height: 50px;
+    }
+
+    footer a svg:hover{
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.2);
+        cursor: pointer;
+        color: #FFC400;
+        
+    }
+
+    footer p{
+        font-size: 0.85rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        color: #330000;
+    }
+
+   
+
+    .footer2{
+        width: 100%;
+        height: 300px;
+        background-color: #0074d9e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .git{
+        text-decoration: none;
+    }
+
+    .git:hover{
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.2);
+        cursor: pointer;
+        color: #FFC400;
+        
+    }
+
+
+
+}
